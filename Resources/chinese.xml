@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dict>
+  <key>score</key>
+  <string>分数: </string>
+  
+  <key>helpMessage</key>
+  <string>连续点击两张牌，翻面后，如果两张牌图案相同(忽略花色)，则不会翻回背面，否则，翻回背面</string>
+
+  <key>helpTitle</key>
+  <string>帮助信息</string>
+
+  <key>aboutMessage</key>
+  <string>个人开发，供学习使用，欢迎同行交流
+联系方式：
+    QQ: 1252650072</string>
+
+  <key>aboutTitle</key>
+  <string>关于我</string>
+</dict>
