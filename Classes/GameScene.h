@@ -27,9 +27,13 @@ public:
 
 	void setRow(int row);
 	void setCol(int col);
-public:
+	void openCard(Node*, void*);
+	void closeCard(Node*, void*);
+	void resetAllCards(float dt);
+private:
 	std::vector<s_Pokers> pokers;
 	const int POKERCOUNT = 54;
+	std::mutex mutex;
 private:
 	int row, col;
 };
